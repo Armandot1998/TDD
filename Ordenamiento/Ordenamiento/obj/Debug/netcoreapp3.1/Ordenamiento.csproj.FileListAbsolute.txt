@@ -1,0 +1,9 @@
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\bin\Debug\netcoreapp3.1\Ordenamiento.deps.json
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\bin\Debug\netcoreapp3.1\Ordenamiento.dll
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\bin\Debug\netcoreapp3.1\Ordenamiento.pdb
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.csprojAssemblyReference.cache
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.AssemblyInfoInputs.cache
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.AssemblyInfo.cs
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.dll
+C:\Users\arman\source\repos\TDD\Ordenamiento\Ordenamiento\obj\Debug\netcoreapp3.1\Ordenamiento.pdb
