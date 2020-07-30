@@ -1,0 +1,6 @@
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\bin\Debug\Informatica.Negocio.dll
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\bin\Debug\Informatica.Negocio.pdb
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\obj\Debug\Informatica.Negocio.csprojAssemblyReference.cache
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\obj\Debug\Informatica.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\obj\Debug\Informatica.Negocio.dll
+C:\Users\arman\source\repos\Informatica\Informatica.Negocio\obj\Debug\Informatica.Negocio.pdb
