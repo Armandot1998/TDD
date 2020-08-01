@@ -5,13 +5,12 @@ namespace TiposOrdenamiento
 {
     public class TiposOrdenamiento
     {
-        public List<int> OrdenarBusbuja(int[] entrada)
+        public int[] OrdenarBusbuja(int[] entrada)
         {
-            var resultado = new List<int>();
 
-            for (int a = 0; a <= entrada.Length; a++)
+            for (int a = 0; a < entrada.Length; a++)
             {
-                for (int b = 0; b <= entrada.Length - 1; b++)
+                for (int b = 0; b < entrada.Length - 1; b++)
                 {
                     if (entrada[b] > entrada[b + 1])
                     {
@@ -21,12 +20,7 @@ namespace TiposOrdenamiento
                     }
                 }
             }
-            for (int i = 0; i <= entrada.Length; i++)
-            {
-                resultado.Add(entrada[i]);
-            }
-
-            return resultado;
+            return entrada;
         }
     }
 }

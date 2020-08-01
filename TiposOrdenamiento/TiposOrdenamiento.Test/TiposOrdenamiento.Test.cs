@@ -14,9 +14,14 @@ namespace TiposOrdenamiento.Test
             int[] esperado = {1, 2, 3, 4, 5, 6, 7 };
 
             TiposOrdenamiento tiposordenamiento = new TiposOrdenamiento();
-            List<int> actual = tiposordenamiento.OrdenarBusbuja(entrada);
+            int[] actual = tiposordenamiento.OrdenarBusbuja(entrada);
 
             Assert.AreEqual(esperado[0], actual[0]);
+            Assert.AreEqual(esperado[1], actual[1]);
+            Assert.AreEqual(esperado[2], actual[2]);
+            Assert.AreEqual(esperado[3], actual[3]);
+            Assert.AreEqual(esperado[4], actual[4]);
+            Assert.AreEqual(esperado[5], actual[5]);
 
         }
     }
