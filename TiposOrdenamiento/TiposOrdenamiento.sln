@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposOrdenamiento", "TiposOrdenamiento\TiposOrdenamiento.csproj", "{1C8FBD1D-9825-43DE-BA8F-D1F4F08F8E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposOrdenamiento", "TiposOrdenamiento\TiposOrdenamiento.csproj", "{1C8FBD1D-9825-43DE-BA8F-D1F4F08F8E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposOrdenamiento.Test", "TiposOrdenamiento.Test\TiposOrdenamiento.Test.csproj", "{93F132C5-B020-43F9-A01C-AF41A9DDB863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposOrdenamiento.Test", "TiposOrdenamiento.Test\TiposOrdenamiento.Test.csproj", "{93F132C5-B020-43F9-A01C-AF41A9DDB863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
