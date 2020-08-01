@@ -1,0 +1,9 @@
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\bin\Debug\netcoreapp3.1\TiposOrdenamiento.deps.json
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\bin\Debug\netcoreapp3.1\TiposOrdenamiento.dll
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\bin\Debug\netcoreapp3.1\TiposOrdenamiento.pdb
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.csprojAssemblyReference.cache
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.AssemblyInfoInputs.cache
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.AssemblyInfo.cs
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.dll
+C:\Users\arman\source\repos\TDD\TiposOrdenamiento\TiposOrdenamiento\obj\Debug\netcoreapp3.1\TiposOrdenamiento.pdb

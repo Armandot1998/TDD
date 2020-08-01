@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TiposOrdenamiento/1.0.0": {
+        "runtime": {
+          "TiposOrdenamiento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TiposOrdenamiento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
