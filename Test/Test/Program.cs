@@ -10,7 +10,8 @@ namespace Test
         {
             int[] arr = { 10, 64, 7, 99, 32, 18, 0};
         HeapSort hs = new HeapSort();
-        hs.PerformHeapSort(arr);
+        hs.OrdenarHeapInt(arr);
+            Console.WriteLine(arr[0]);
     }
 }
 class HeapSort
@@ -61,7 +62,7 @@ class HeapSort
             Heapify(arr, largest);
         }
     }
-    public void PerformHeapSort(int[] arr)
+    public int[] OrdenarHeapInt(int[] arr)
     {
         BuildHeap(arr);
         for (int i = arr.Length-1; i >= 0; i--)
@@ -70,12 +71,8 @@ class HeapSort
             dimension--;
             Heapify(arr, 0);
         }
-        DisplayArray(arr);
-    }
-        private void DisplayArray(int[] arr)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            { Console.Write("[{0}]", arr[i]); }
-        } 
+            return arr;
+        }
+       
     }
 }
