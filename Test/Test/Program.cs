@@ -8,40 +8,75 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            int[] entrada = { 1, 10, 6, 5, 2, 7, 4};
+            int[] arr = { 10, 64, 7, 99, 32, 18, 0};
+        HeapSort hs = new HeapSort();
+        hs.PerformHeapSort(arr);
+        Console.ReadLine();
+    }
+}
+class HeapSort
+{
+    private int dimension;
 
-            int salto = entrada.Length / 2;
-
-            while (salto >= 1)
-            {
-                salto /=2;
-                for (int i = 0; i < entrada.Length-salto; i++)
-                {
-                    if (entrada[i] > entrada[i + salto])
-                    {
-                        int tmp = entrada[i + salto];
-                        entrada[i + salto] = entrada[i];
-                        entrada[i] = tmp;
-                    }
-                    for (int j = 0; j <= i; j++)
-                    {
-                        if(entrada[j] > entrada[j + salto])
-                        {
-                            int tmp = entrada[j+salto];
-                            entrada[j + salto] = entrada[j];
-                            entrada[j] = tmp;
-                        }
-                    }
-                }
-            }
-
-            Console.WriteLine(entrada[0]);
-            Console.WriteLine(entrada[1]);
-            Console.WriteLine(entrada[2]);
-            Console.WriteLine(entrada[3]);
-            Console.WriteLine(entrada[4]);
-            Console.WriteLine(entrada[5]);
-            Console.WriteLine(entrada[6]);
+    private void BuildHeap(int[] arr)
+    {
+        dimension = arr.Length-1;
+        for (int i = dimension/2; i >= 0; i--)
+        {
+            Heapify(arr, i);
         }
+    }
+
+    private void intercambiar(int[] arr, int x, int y)
+    {
+        int temp = arr[x];
+        arr[x] = arr[y];
+        arr[y] = temp;
+    }
+    private void Heapify(int[] arr, int index)
+    {
+        int left = 2 * index;
+        int right = 2 * index + 1;
+        int largest;
+
+        if (left <= dimension && arr[left] > arr[index])
+        {
+            largest = left;
+        }
+        else
+        {
+            largest = index;
+        }
+        if (right <= dimension && arr[right] > arr[largest])
+        {
+            largest = right;
+        }
+        else
+        {
+            largest = index;
+        }
+
+        if (largest != index)
+        {
+            intercambiar(arr, index, largest);
+            Heapify(arr, largest);
+        }
+    }
+    public void PerformHeapSort(int[] arr)
+    {
+        BuildHeap(arr);
+        for (int i = arr.Length-1; i >= 0; i--)
+        {
+            intercambiar(arr, 0, i);
+            dimension--;
+            Heapify(arr, 0);
+        }
+        DisplayArray(arr);
+    }
+        private void DisplayArray(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            { Console.Write("[{0}]", arr[i]); }
+        } 
     }
 }
