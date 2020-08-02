@@ -11,7 +11,6 @@ namespace Test
             int[] arr = { 10, 64, 7, 99, 32, 18, 0};
         HeapSort hs = new HeapSort();
         hs.PerformHeapSort(arr);
-        Console.ReadLine();
     }
 }
 class HeapSort
