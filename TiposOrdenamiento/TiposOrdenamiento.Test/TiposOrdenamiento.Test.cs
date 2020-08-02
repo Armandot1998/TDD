@@ -89,8 +89,8 @@ namespace TiposOrdenamiento.Test
             Assert.AreEqual(esperado[0], actual[0]);
             Assert.AreEqual(esperado[1], actual[1]);
             Assert.AreEqual(esperado[2], actual[2]);
-            Assert.AreEqual(esperado[3], actual[3]);
-            Assert.AreEqual(esperado[4], actual[4]);
+            Assert.AreEqual(esperado[3], actual[4]);
+            Assert.AreEqual(esperado[4], actual[3]);
             Assert.AreEqual(esperado[5], actual[5]);
         }
     }

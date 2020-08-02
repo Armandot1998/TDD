@@ -8,7 +8,7 @@ namespace TiposOrdenamiento
     {
         private int dimension;
 
-        private void construir(int[] arr)
+        private void BuildHeap(int[] arr)
         {
             dimension = arr.Length - 1;
             for (int i = dimension / 2; i >= 0; i--)
@@ -54,7 +54,7 @@ namespace TiposOrdenamiento
         }
         public int[] OrdenarHeapInt(int[] arr)
         {
-            construir(arr);
+            BuildHeap(arr);
             for (int i = arr.Length - 1; i >= 0; i--)
             {
                 intercambiar(arr, 0, i);
@@ -63,5 +63,7 @@ namespace TiposOrdenamiento
             }
             return arr;
         }
+
     }
 }
+
