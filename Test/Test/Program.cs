@@ -12,9 +12,9 @@ namespace Test
 
             int salto = entrada.Length / 2;
 
-            while (salto >=1)
+            while (salto >= 1)
             {
-                salto /= 2;
+                salto /=2;
                 for (int i = 0; i < entrada.Length-salto; i++)
                 {
                     if (entrada[i] > entrada[i + salto])
@@ -23,7 +23,7 @@ namespace Test
                         entrada[i + salto] = entrada[i];
                         entrada[i] = tmp;
                     }
-                    for (int j = 0; j<=i; j++)
+                    for (int j = 0; j <= i; j++)
                     {
                         if(entrada[j] > entrada[j + salto])
                         {
