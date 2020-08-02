@@ -80,18 +80,36 @@ namespace TiposOrdenamiento.Test
         [TestMethod]
         public void OrdenamientoHeapInt()
         {
-            int[] arr = { 10, 64, 7, 99, 32, 18, 0 };
+            int[] entrada = { 10, 64, 7, 99, 32, 18, 0 };
             int[] esperado = { 0, 7, 10, 18, 32, 64, 99 };
 
-            OrdenamientoHeap ordenamientoHeap = new OrdenamientoHeap();
-            int[] actual = ordenamientoHeap.OrdenarHeapInt(arr);
+            OrdenamientoHeapInt ordenamientoHeap = new OrdenamientoHeapInt();
+            int[] actual = ordenamientoHeap.OrdenarHeapInt(entrada);
 
             Assert.AreEqual(esperado[0], actual[0]);
             Assert.AreEqual(esperado[1], actual[1]);
             Assert.AreEqual(esperado[2], actual[2]);
-            Assert.AreEqual(esperado[3], actual[4]);
-            Assert.AreEqual(esperado[4], actual[3]);
+            Assert.AreEqual(esperado[3], actual[3]);
+            Assert.AreEqual(esperado[4], actual[4]);
             Assert.AreEqual(esperado[5], actual[5]);
         }
+
+        [TestMethod]
+        public void OrdenamientoHeapDouble()
+        {
+            double[] entrada = { 10.4, 64.1, 7.9, 99.5, 32.6, 18.3, 0 };
+            double[] esperado = { 0, 7.9, 10.4, 18.3, 32.6, 64.1, 99.5 };
+
+            OrdenamientoHeapDouble ordenamientoHeap = new OrdenamientoHeapDouble();
+            double[] actual = ordenamientoHeap.OrdenarHeapDouble(entrada);
+
+            Assert.AreEqual(esperado[0], actual[0]);
+            Assert.AreEqual(esperado[1], actual[1]);
+            Assert.AreEqual(esperado[2], actual[2]);
+            Assert.AreEqual(esperado[3], actual[3]);
+            Assert.AreEqual(esperado[4], actual[4]);
+            Assert.AreEqual(esperado[5], actual[5]);
+        }
+
     }
 }
