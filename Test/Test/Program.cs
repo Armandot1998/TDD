@@ -8,99 +8,55 @@ namespace Test
 		public static void Main(string[] args)
 		{
 			int[] entrada = new int[] { 1, 2, 4, 3, 0, -1, 5, 7, 8, 6 };
+            int primero = 0;
+            int ultimo = entrada.Length - 1;
 
-			Heap heap = new Heap();
-			int[] resultado = heap.heapSort(entrada);
+            Quick quick = new Quick();
+            int[] resultado = quick.quicksort(entrada, primero, ultimo);
 
-			Console.WriteLine(resultado[0]);
-			Console.WriteLine(resultado[1]);
-			Console.WriteLine(resultado[2]);
-			Console.WriteLine(resultado[3]);
-			Console.WriteLine(resultado[4]);
-			Console.WriteLine(resultado[5]);
-			Console.WriteLine(resultado[6]);
-			Console.WriteLine(resultado[7]);
-			Console.WriteLine(resultado[8]);
-			Console.WriteLine(resultado[9]);
-		}
+            Console.WriteLine(resultado[0]);
+            Console.WriteLine(resultado[1]);
+            Console.WriteLine(resultado[2]);
+            Console.WriteLine(resultado[3]);
+            Console.WriteLine(resultado[4]);
+            Console.WriteLine(resultado[5]);
+            Console.WriteLine(resultado[6]);
+            Console.WriteLine(resultado[7]);
+            Console.WriteLine(resultado[8]);
+            Console.WriteLine(resultado[9]);
+
+
+        }
 	}
-    class Heap { 
-
-		public int[] heapSort(int[] entrada)
-		{
-			int dimension = entrada.Length;
-
-			DimensionMax(entrada);
-
-			for (int i = dimension - 1; i >= 1; i--)
-			{
-				int tmp = entrada[i];
-				entrada[i] = entrada[0];
-				entrada[0] = tmp;
-				dimension--;
-				Contener(entrada, dimension, 0);
-			}
-			return entrada;
-		}
-
-		private void DimensionMax(int[] entrada)
-		{
-			int dimension = entrada.Length;
-
-			for (int i = (dimension / 2) - 1; i >= 0; i--)
-			{
-				Contener(entrada, dimension, i);
-			}
-		}
-
-		private static void Contener(int[] entrada, int dimension, int contenerPos)
-		{
-			if (HijoIzqPos(contenerPos) >= dimension)
-			{
-				return;
-			}
-			int HijoPosMax;
-			bool IzqMax;
-
-			if (HijoDerPos(contenerPos) >= dimension || entrada[HijoDerPos(contenerPos)].CompareTo(entrada[HijoIzqPos(contenerPos)]) < 0)
-			{
-				HijoPosMax = HijoIzqPos(contenerPos);
-				IzqMax = true;
-			}
-			else
-			{
-				HijoPosMax = HijoDerPos(contenerPos);
-				IzqMax = false;
-			}
-
-			if (entrada[HijoPosMax].CompareTo(entrada[contenerPos]) > 0)
-			{
-				//Intercambiar(entrada, contenerPos, HijoPosMax);
-				int tmp = entrada[contenerPos];
-				entrada[contenerPos] = entrada[HijoPosMax];
-				entrada[HijoPosMax] = tmp;
-
-				if (IzqMax)
-				{
-					Contener(entrada, dimension, HijoIzqPos(contenerPos));
-
-				}
-				else
-				{
-					Contener(entrada, dimension, HijoDerPos(contenerPos));
-				}
-			}
-
-		}
-
-		private static int HijoIzqPos(int PadrePos)
-		{
-			return (2 * (PadrePos + 1)) - 1;
-		}
-
-		private static int HijoDerPos(int PadrePos)
-		{
-			return 2 * (PadrePos + 1);
-		}
-	}
+    class Quick {
+        public int[] quicksort(int[] vector, int primero, int ultimo)
+        {  
+            int central = (primero + ultimo) / 2;
+            double pivote = vector[central];
+            int i = primero;
+            int j = ultimo;
+            do
+            {
+                while (vector[i] < pivote) i++;
+                while (vector[j] > pivote) j--;
+                if (i <= j)
+                {
+                    int temp = vector[i];
+                    vector[i] = vector[j];
+                    vector[j] = temp;
+                    i++;
+                    j--;
+                }
+            } while (i <= j);
+            if (primero < j)
+            {
+                quicksort(vector, primero, j);
+            }
+            if (i < ultimo)
+            {
+                quicksort(vector, i, ultimo);
+            }
+            return vector;
+        }
+    }
 }
