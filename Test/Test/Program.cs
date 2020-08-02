@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace Test
 {
@@ -7,18 +8,29 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            int[] entrada = {3, 3, 5, 2, 1, 6 };
-            int rango = entrada.Length -1; 
+            int[] entrada = { 1, 10, 6, 5, 2, 7, 4};
 
-            for (int a = 0; a < entrada.Length; a++)
+            int salto = entrada.Length / 2;
+
+            while (salto >=1)
             {
-                for (int b = 0; b < entrada.Length - 1; b++)
+                salto /= 2;
+                for (int i = 0; i < entrada.Length-salto; i++)
                 {
-                    if (entrada[b] > entrada[b + 1])
+                    if (entrada[i] > entrada[i + salto])
                     {
-                        int tmp = entrada[b];
-                        entrada[b] = entrada[b + 1];
-                        entrada[b + 1] = tmp;
+                        int tmp = entrada[i + salto];
+                        entrada[i + salto] = entrada[i];
+                        entrada[i] = tmp;
+                    }
+                    for (int j = 0; j<=i; j++)
+                    {
+                        if(entrada[j] > entrada[j + salto])
+                        {
+                            int tmp = entrada[j+salto];
+                            entrada[j + salto] = entrada[j];
+                            entrada[j] = tmp;
+                        }
                     }
                 }
             }
@@ -29,6 +41,7 @@ namespace Test
             Console.WriteLine(entrada[3]);
             Console.WriteLine(entrada[4]);
             Console.WriteLine(entrada[5]);
+            Console.WriteLine(entrada[6]);
         }
     }
 }
