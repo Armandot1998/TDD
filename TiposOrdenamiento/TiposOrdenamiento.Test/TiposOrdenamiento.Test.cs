@@ -151,10 +151,6 @@ namespace TiposOrdenamiento.Test
             Assert.AreEqual(esperado[3], actual[3]);
             Assert.AreEqual(esperado[4], actual[4]);
             Assert.AreEqual(esperado[5], actual[5]);
-            Assert.AreEqual(esperado[6], actual[6]);
-            Assert.AreEqual(esperado[7], actual[7]);
-            Assert.AreEqual(esperado[8], actual[8]);
-            Assert.AreEqual(esperado[9], actual[9]);
         }
     }
 }
