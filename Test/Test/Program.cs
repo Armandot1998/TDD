@@ -7,12 +7,12 @@ namespace Test
 	{
 		public static void Main(string[] args)
 		{
-			int[] entrada = new int[] { 1, 2, 4, 3, 0, -1, 5, 7, 8, 6 };
+			double[] entrada = new double[] { 1.4, 2.5, 4.5, 3.8, 0, -1.9, 5.4, 7.5, 8.9, 6.1 };
             int primero = 0;
             int ultimo = entrada.Length - 1;
 
             Quick quick = new Quick();
-            int[] resultado = quick.quicksort(entrada, primero, ultimo);
+            double[] resultado = quick.quicksort(entrada, primero, ultimo);
 
             Console.WriteLine(resultado[0]);
             Console.WriteLine(resultado[1]);
@@ -29,7 +29,7 @@ namespace Test
         }
 	}
     class Quick {
-        public int[] quicksort(int[] vector, int primero, int ultimo)
+        public double[] quicksort(double[] vector, int primero, int ultimo)
         {  
             int central = (primero + ultimo) / 2;
             double pivote = vector[central];
@@ -41,7 +41,7 @@ namespace Test
                 while (vector[j] > pivote) j--;
                 if (i <= j)
                 {
-                    int temp = vector[i];
+                    double temp = vector[i];
                     vector[i] = vector[j];
                     vector[j] = temp;
                     i++;
