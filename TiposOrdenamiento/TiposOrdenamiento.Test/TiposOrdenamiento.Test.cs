@@ -111,5 +111,50 @@ namespace TiposOrdenamiento.Test
             Assert.AreEqual(esperado[5], actual[5]);
         }
 
+        [TestMethod]
+        public void OrdenamientoQuickInt()
+        {
+            int[] entrada = { 1, 2, 4, 3, 0, -1, 5, 7, 8, 6 };
+            int[] esperado = { -1, 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+            int primero = 0;
+            int ultimo = entrada.Length - 1;
+
+            OrdenamientoQuickInt ordenamientoQuick = new OrdenamientoQuickInt();
+            int[] actual = ordenamientoQuick.OrdenarQuick(entrada, primero, ultimo);
+
+            Assert.AreEqual(esperado[0], actual[0]);
+            Assert.AreEqual(esperado[1], actual[1]);
+            Assert.AreEqual(esperado[2], actual[2]);
+            Assert.AreEqual(esperado[3], actual[3]);
+            Assert.AreEqual(esperado[4], actual[4]);
+            Assert.AreEqual(esperado[5], actual[5]);
+            Assert.AreEqual(esperado[6], actual[6]);
+            Assert.AreEqual(esperado[7], actual[7]);
+            Assert.AreEqual(esperado[8], actual[8]);
+            Assert.AreEqual(esperado[9], actual[9]);
+        }
+
+        [TestMethod]
+        public void OrdenamientoQuickDouble()
+        {
+            double[] entrada = { 10.4, 64.1, 7.9, 99.5, 32.6, 18.3, 0 };
+            double[] esperado = { 0, 7.9, 10.4, 18.3, 32.6, 64.1, 99.5 };
+            int primero = 0;
+            int ultimo = entrada.Length - 1;
+
+            OrdenamientoQuickDouble ordenamientoQuick = new OrdenamientoQuickDouble();
+            double[] actual = ordenamientoQuick.OrdenarQuick(entrada, primero, ultimo);
+
+            Assert.AreEqual(esperado[0], actual[0]);
+            Assert.AreEqual(esperado[1], actual[1]);
+            Assert.AreEqual(esperado[2], actual[2]);
+            Assert.AreEqual(esperado[3], actual[3]);
+            Assert.AreEqual(esperado[4], actual[4]);
+            Assert.AreEqual(esperado[5], actual[5]);
+            Assert.AreEqual(esperado[6], actual[6]);
+            Assert.AreEqual(esperado[7], actual[7]);
+            Assert.AreEqual(esperado[8], actual[8]);
+            Assert.AreEqual(esperado[9], actual[9]);
+        }
     }
 }
