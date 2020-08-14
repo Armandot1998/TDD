@@ -1,0 +1,13 @@
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.exe
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.deps.json
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.runtimeconfig.json
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.runtimeconfig.dev.json
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.dll
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\bin\Debug\netcoreapp3.1\Carrera.Hilos.pdb
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.AssemblyInfoInputs.cache
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.AssemblyInfo.cs
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.dll
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.pdb
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.genruntimeconfig.cache
+C:\Users\arman\source\repos\Carrera\Carrera.Hilos\obj\Debug\netcoreapp3.1\Carrera.Hilos.csprojAssemblyReference.cache
