@@ -6,7 +6,13 @@ namespace TiposOrdenamiento
 {
     public class OrdenamientoQuickInt
     {
-        public int[] OrdenarQuick(int[] vector, int primero, int ultimo)
+        public int[] OrdenarQuick(int[] vector)
+        {
+            
+            return OrdenarQuick(vector, vector[0], vector[vector.Length -1]);
+        }
+        
+        private int[] OrdenarQuick(int[] vector, int primero, int ultimo)
         {
             int central = (primero + ultimo) / 2;
             double pivote = vector[central];
