@@ -1,0 +1,9 @@
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\bin\Debug\netcoreapp3.1\Data-Driven.Test.deps.json
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\bin\Debug\netcoreapp3.1\Data-Driven.Test.dll
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\bin\Debug\netcoreapp3.1\Data-Driven.Test.pdb
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.csprojAssemblyReference.cache
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.AssemblyInfoInputs.cache
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.AssemblyInfo.cs
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.dll
+C:\Users\arman\source\repos\Data-Driven\Data-Driven.Test\obj\Debug\netcoreapp3.1\Data-Driven.Test.pdb

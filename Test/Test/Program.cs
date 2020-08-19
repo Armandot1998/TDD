@@ -11,6 +11,7 @@ namespace Heap_sort
 			//double[] entrada = new double[] { 2.22, 0.5, 2.7, -1.0, 11.2 };
 
 			string[] entrada = new string[] { "Red", "White", "Black", "Green", "Orange" };
+
 			Console.WriteLine("Arreglo Original");
 			Console.WriteLine("");
 			printArray(entrada);
