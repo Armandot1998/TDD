@@ -1,62 +1,83 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
-namespace Test
+
+namespace Heap_sort
 {
-	class Program
+	public class MainClass
 	{
 		public static void Main(string[] args)
 		{
-			double[] entrada = new double[] { 1.4, 2.5, 4.5, 3.8, 0, -1.9, 5.4, 7.5, 8.9, 6.1 };
-            int primero = 0;
-            int ultimo = entrada.Length - 1;
+			//int[] entrada = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 
-            Quick quick = new Quick();
-            double[] resultado = quick.quicksort(entrada, primero, ultimo);
+			//double[] entrada = new double[] { 2.22, 0.5, 2.7, -1.0, 11.2 };
 
-            Console.WriteLine(resultado[0]);
-            Console.WriteLine(resultado[1]);
-            Console.WriteLine(resultado[2]);
-            Console.WriteLine(resultado[3]);
-            Console.WriteLine(resultado[4]);
-            Console.WriteLine(resultado[5]);
-            Console.WriteLine(resultado[6]);
-            Console.WriteLine(resultado[7]);
-            Console.WriteLine(resultado[8]);
-            Console.WriteLine(resultado[9]);
+			string[] entrada = new string[] { "Red", "White", "Black", "Green", "Orange" };
+			Console.WriteLine("Arreglo Original");
+			Console.WriteLine("");
+			printArray(entrada);
+			Console.WriteLine("\n");
+			Console.WriteLine("Arreglo Ordenado");
+			Console.WriteLine("");
+			OrdenarBubble(entrada);
+			//OrdenarShell(entrada);
+			printArray(entrada);
 
 
-        }
+		}
+
+		public static void OrdenarBubble<T>(T[] entrada) where T : IComparable<T>
+		{
+			int l = entrada.Length;
+
+			for (int i = 0; i < l; i++)
+			{
+				for (int j = 0; j < l - 1; j++)
+				{
+					if (entrada[j].CompareTo(entrada[j + 1]) > 0)
+					{
+						T temp = entrada[j];
+						entrada[j] = entrada[j + 1];
+						entrada[j + 1] = temp;
+					}
+				}
+			}
+		}
+
+		public static void OrdenarShell<T>(T[] entrada) where T : IComparable<T>
+		{
+			int salto = entrada.Length / 2;
+
+			while (salto >= 1)
+			{
+				salto /= 2;
+				for (int i = 0; i < entrada.Length - salto; i++)
+				{
+					if (entrada[i].CompareTo(entrada[i + salto]) > 0)
+					{
+						T tmp = entrada[i + salto];
+						entrada[i + salto] = entrada[i];
+						entrada[i] = tmp;
+					}
+					for (int j = 0; j <= i; j++)
+					{
+						if (entrada[j].CompareTo(entrada[j + salto]) > 0)
+						{
+							T tmp = entrada[j + salto];
+							entrada[j + salto] = entrada[j];
+							entrada[j] = tmp;
+						}
+					}
+				}
+			}
+		}
+
+		private static void printArray<T>(T[] array)
+		{
+
+			foreach (T t in array)
+			{
+				Console.Write(' ' + t.ToString() + ' ');
+			}
+
+		}
 	}
-    class Quick {
-        public double[] quicksort(double[] vector, int primero, int ultimo)
-        {  
-            int central = (primero + ultimo) / 2;
-            double pivote = vector[central];
-            int i = primero;
-            int j = ultimo;
-            do
-            {
-                while (vector[i] < pivote) i++;
-                while (vector[j] > pivote) j--;
-                if (i <= j)
-                {
-                    double temp = vector[i];
-                    vector[i] = vector[j];
-                    vector[j] = temp;
-                    i++;
-                    j--;
-                }
-            } while (i <= j);
-            if (primero < j)
-            {
-                quicksort(vector, primero, j);
-            }
-            if (i < ultimo)
-            {
-                quicksort(vector, i, ultimo);
-            }
-            return vector;
-        }
-    }
 }
