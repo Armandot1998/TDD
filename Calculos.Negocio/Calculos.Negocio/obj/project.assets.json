@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
       "projectName": "Calculos.Negocio",
-      "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+      "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
       "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
+      "outputPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",

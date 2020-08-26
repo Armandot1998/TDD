@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3/8VLmzeeqfTeT0ecPnPuwBCZF95NhuxBfg0B2c1JWSAr2vq0novFTa3+NqY72/6AUiIlccy4QWYnTUWEZMdIQ==",
+  "dgSpecHash": "PDOVsvLt64QCUQG/1nx1rLxwnw6YTMtwSn5/wHvc+K1P6db9PDGld9rxSCS1F8wkbePhdL2pPRsihl92xe6bPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.BDD\\Suma.BDD.csproj",
+  "projectFilePath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.BDD\\Suma.BDD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arman\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",

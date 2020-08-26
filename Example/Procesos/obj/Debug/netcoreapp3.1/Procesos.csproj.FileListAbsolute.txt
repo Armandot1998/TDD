@@ -1,0 +1,16 @@
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.exe
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.deps.json
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.runtimeconfig.json
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.runtimeconfig.dev.json
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.dll
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Procesos.pdb
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.csprojAssemblyReference.cache
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.AssemblyInfoInputs.cache
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.AssemblyInfo.cs
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.csproj.CoreCompileInputs.cache
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.dll
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.pdb
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.genruntimeconfig.cache
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Example.dll
+C:\Users\arman\source\repos\Example\Procesos\bin\Debug\netcoreapp3.1\Example.pdb
+C:\Users\arman\source\repos\Example\Procesos\obj\Debug\netcoreapp3.1\Procesos.csproj.CopyComplete

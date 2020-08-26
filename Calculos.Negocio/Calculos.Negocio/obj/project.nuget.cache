@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5eO7XN/6ZbEjesioaKt7hqhK1rRhEYHAALOUf4Vd73vUnJta5AQYdiE+9tnnI3YxBmCqKXe8x30gAr9lLLygqw==",
+  "dgSpecHash": "w+l9oS6TFrIMVvVfPxwIa4DZ3UzPXC24DFUUVerhka1UuC1Qt289P6EEm6X4CEsRJVXsy5RUP+47pWKVcmfXiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+  "projectFilePath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj": {}
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
         "projectName": "Calculos.Negocio",
-        "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+        "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
+        "outputPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj": {
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj",
         "projectName": "Factorial.BDD",
-        "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj",
+        "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Factorial.BDD\\Factorial.BDD.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Factorial.BDD\\obj\\",
+        "outputPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Factorial.BDD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
-                "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj"
+              "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
+                "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj"
               }
             }
           }

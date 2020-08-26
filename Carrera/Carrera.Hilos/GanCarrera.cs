@@ -17,6 +17,8 @@ namespace Carrera.Hilos
             Console.WriteLine("  ________________________________ ");
             Console.WriteLine("");
 
+            //Thread carril = new Thread(Carril);
+
             Thread carril1 = new Thread(Carril1);
             Thread carril2 = new Thread(Carril2);
             Thread carril3 = new Thread(Carril3);
@@ -28,7 +30,8 @@ namespace Carrera.Hilos
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-
+            //var corredor1 = new Corredor { CarrilPartida = 1, Simbolo= 'S' };
+            //carril1.Start(corredor1);
             carril1.Start();
 
             stopwatch.Stop();
@@ -95,8 +98,25 @@ namespace Carrera.Hilos
             Ganador(tiempo_carril1, tiempo_carril2, tiempo_carril3, tiempo_carril4, tiempo_carril5, tiempo_carril6, tiempo_carril7, tiempo_carril8);
         }
 
+        //public static void Carril(object corredor)
+        //{
+        //    Corredor miCorredor = (Corredor)corredor; 
+        //    // aclarar variables
+        //    //strat
+        //    int nt = 0;
+        //    while (nt <= 10)
+        //    {
+        //        Random rnd = new Random();
+        //        int pasos = rnd.Next(1, 3);
+        //        Console.WriteLine(" | S |   |   |   |   |   |   |   |");
+        //        nt += pasos;
+        //        Thread.Sleep(1000);
+        //    }
+        //    //miCorredor.Duracion = 
+        //}
         public static void Carril1()
         {
+            // aclarar variables
             int nt = 0;
             while(nt <= 10)
             {

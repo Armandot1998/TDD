@@ -7,12 +7,3 @@ C:\Users\arman\source\repos\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcorea
 C:\Users\arman\source\repos\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\arman\source\repos\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.dll
 C:\Users\arman\source\repos\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.pdb
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\bin\Debug\netcoreapp3.1\Calculos.Negocio.deps.json
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\bin\Debug\netcoreapp3.1\Calculos.Negocio.dll
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\bin\Debug\netcoreapp3.1\Calculos.Negocio.pdb
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.csprojAssemblyReference.cache
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.AssemblyInfoInputs.cache
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.AssemblyInfo.cs
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.csproj.CoreCompileInputs.cache
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.dll
-C:\Users\arman\source\repos\TDD\Calculos.Negocio\Calculos.Negocio\obj\Debug\netcoreapp3.1\Calculos.Negocio.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj": {}
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj": {
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj",
         "projectName": "Calculos.Consola",
-        "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj",
+        "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Consola\\Calculos.Consola.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Consola\\obj\\",
+        "outputPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
-                "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj"
+              "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
+                "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
+    "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
         "projectName": "Calculos.Negocio",
-        "projectPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
+        "projectPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\Calculos.Negocio.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\source\\repos\\TDD\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
+        "outputPath": "C:\\Users\\arman\\source\\repos\\Calculos.Negocio\\Calculos.Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
